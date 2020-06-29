@@ -50,7 +50,7 @@ namespace WritingPadV2
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{controller=Notepad}/{action=Index}/{id?}");
             });
         }
     }
