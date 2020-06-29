@@ -3,5 +3,4 @@
 ################################################################################
 
 /.vs
-/WritingPadV2/.vs/WritingPadV2/v16
-/WritingPadV2/obj
+/WritingPadV2/bin/Debug/netcoreapp3.1

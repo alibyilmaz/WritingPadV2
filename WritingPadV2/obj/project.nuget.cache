@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "uAGLwscOL4ltBr5hbBykJLXYj9vQ3kJjPkB9SUPFqp4Z4RXZkS9VyaBa5d27ToZiErH01DYTuCbb2gxSlPX2Dw==",
+  "success": true,
+  "projectFilePath": "D:\\Github\\WritingPadV2\\WritingPadV2\\WritingPadV2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\MISRA\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}
