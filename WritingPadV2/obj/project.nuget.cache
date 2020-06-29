@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "IIDb++77XcPU+P0OAHMdnLq82nCKHG/tfR3vxN40SmnaG43LDIbFXnykyn7FNSuv3g6BJoRUgM/BPojtfKv5Pg==",
+  "dgSpecHash": "Ub7JwBTVnsnD+9jUBuPrSu50UA3gnOPVTnBjQ0yejzMW5GA9pV76pLziC92cuiWbtbcHVj+tTfPK7idqdHiyCQ==",
   "success": true,
   "projectFilePath": "D:\\Github\\WritingPadV2\\WritingPadV2\\WritingPadV2.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\MISRA\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\MISRA\\.nuget\\packages\\humanizer.core.tr\\2.8.26\\humanizer.core.tr.2.8.26.nupkg.sha512",
     "C:\\Users\\MISRA\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\MISRA\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",
     "C:\\Users\\MISRA\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\3.1.0\\microsoft.aspnetcore.razor.language.3.1.0.nupkg.sha512",

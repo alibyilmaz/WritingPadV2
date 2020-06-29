@@ -106,6 +106,8 @@ D:\Github\WritingPadV2\WritingPadV2\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAna
 D:\Github\WritingPadV2\WritingPadV2\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\Github\WritingPadV2\WritingPadV2\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\Github\WritingPadV2\WritingPadV2\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Github\WritingPadV2\WritingPadV2\obj\Debug\netcoreapp3.1\Razor\Views\Notepad\Index.cshtml.g.cs
+D:\Github\WritingPadV2\WritingPadV2\bin\Debug\netcoreapp3.1\Humanizer.dll
 D:\Github\WritingPadV2\WritingPadV2\obj\Debug\netcoreapp3.1\WritingPadV2.csproj.CoreCompileInputs.cache
 D:\Github\WritingPadV2\WritingPadV2\obj\Debug\netcoreapp3.1\WritingPadV2.MvcApplicationPartsAssemblyInfo.cache
-D:\Github\WritingPadV2\WritingPadV2\obj\Debug\netcoreapp3.1\Razor\Views\Notepad\Index.cshtml.g.cs
+D:\Github\WritingPadV2\WritingPadV2\bin\Debug\netcoreapp3.1\tr\Humanizer.resources.dll

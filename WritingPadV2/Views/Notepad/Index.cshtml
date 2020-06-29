@@ -1,4 +1,5 @@
 ﻿@model NotepadViewModel;
+@using Humanizer;
 @{
     ViewData["Title"] = "Not Defteri";
 }
@@ -22,7 +23,7 @@
             <tr>
                 <td>@notePad.Title</td>
                 <td>@notePad.Explanation</td>
-                <td>@notePad.DueAt</td>
+                <td>@notePad.DueAt.Humanize() eklendi</td>
                 <td><a href="@notePad.NoteUrl">@notePad.NoteUrl</a> </td>
                 <td><img src="~/Uploads/@notePad.FilePath" height="25" width="25" class="img-responsive" /></td>
                 <td><a href="@Url.Action("Update","NotePad",new {id = notePad.NotePadId })" class="btn btn-default">Düzenle</a></td>

@@ -21,6 +21,6 @@ namespace WritingPadV2.Models
 
         public bool IsActive { get; set; }
 
-        public DateTimeOffset? DueAt { get; set; }
+        public DateTime? DueAt { get; set; }
     }
 }

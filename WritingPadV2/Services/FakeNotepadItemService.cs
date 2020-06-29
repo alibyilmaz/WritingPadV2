@@ -14,7 +14,7 @@ namespace WritingPadV2.Services
             {
                 new NotepadItem
                 {
-                    DueAt =DateTimeOffset.Now.AddDays(1),
+                    DueAt =DateTime.Now.AddDays(-1),
                     Explanation="Açıklama",
                     Title="Test",
                     IsActive=true,

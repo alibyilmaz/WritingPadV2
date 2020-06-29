@@ -42,6 +42,14 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "Humanizer.Core": {
+              "target": "Package",
+              "version": "[2.8.26, )"
+            },
+            "Humanizer.Core.tr": {
+              "target": "Package",
+              "version": "[2.8.26, )"
+            },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[3.1.3, )"
