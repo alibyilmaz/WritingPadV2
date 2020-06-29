@@ -17,7 +17,7 @@
             <td>Düzenle</td>
             <td>Sil</td>
         </tr>
-        @*@foreach (var notePad in Model.Items)
+        @foreach (var notePad in Model.Items)
         {
             <tr>
                 <td>@notePad.Title</td>
@@ -28,6 +28,6 @@
                 <td><a href="@Url.Action("Update","NotePad",new {id = notePad.NotePadId })" class="btn btn-default">Düzenle</a></td>
                 <td><a href="@Url.Action("Delete","NotePad",new {id = notePad.NotePadId})" class="btn btn-danger">Sil</a></td>
             </tr>
-        }*@
+        }
     </tbody>
 </table>
