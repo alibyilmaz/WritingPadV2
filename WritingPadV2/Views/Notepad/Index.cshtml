@@ -1,0 +1,33 @@
+﻿@model NotepadViewModel;
+@{
+    ViewData["Title"] = "Not Defteri";
+}
+
+<h1>Not Defteri</h1>
+
+<a href="@Url.Action("Insert","NotePad")" class="btn btn-success"> Yeni Kayıt Oluştur</a>
+<table class="table table-bordered">
+    <tbody>
+        <tr>
+            <td>Başlık</td>
+            <td>Açıklama</td>
+            <td>Tarih</td>
+            <td>Link</td>
+            <td>Resim</td>
+            <td>Düzenle</td>
+            <td>Sil</td>
+        </tr>
+        @*@foreach (var notePad in Model.Items)
+        {
+            <tr>
+                <td>@notePad.Title</td>
+                <td>@notePad.Explanation</td>
+                <td>@notePad.DueAt</td>
+                <td><a href="@notePad.NoteUrl">@notePad.NoteUrl</a> </td>
+                <td><img src="~/Uploads/@notePad.FilePath" height="25" width="25" class="img-responsive" /></td>
+                <td><a href="@Url.Action("Update","NotePad",new {id = notePad.NotePadId })" class="btn btn-default">Düzenle</a></td>
+                <td><a href="@Url.Action("Delete","NotePad",new {id = notePad.NotePadId})" class="btn btn-danger">Sil</a></td>
+            </tr>
+        }*@
+    </tbody>
+</table>
