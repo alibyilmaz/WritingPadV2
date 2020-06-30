@@ -1,8 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using System.Collections.Generic;
 using System.Threading.Tasks;
-using WritingPadV2.Models;
+using WritingPadV2.Data;
 
 namespace WritingPadV2.Services
 {

@@ -1,8 +1,10 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using WritingPadV2.Data;
 using WritingPadV2.Services;
 
 namespace WritingPadV2
@@ -21,9 +23,13 @@ namespace WritingPadV2
         {
             
             services.AddControllersWithViews();
-
+            
+            services.AddDbContext<NotepadDbContext>(options =>
+               options.UseSqlite(Configuration.GetConnectionString("DefaultConnection")));
+            
             //Dependencies
-            services.AddScoped<INotepadItemServis, FakeNotepadItemService>();
+            services.AddScoped<INotepadItemServis, NotepadItemService>();
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
